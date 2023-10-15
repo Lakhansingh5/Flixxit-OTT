@@ -1,0 +1,62 @@
+.pofileScreen {
+  height: 100vh;
+  color: white;
+  position: relative;
+  height: 100%;
+  background: url("https://wallpapers.com/images/high/netflix-background-gs7hjuwvv2g0e9fj.webp")
+    center no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.profileScreen_body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10%;
+  max-width: 450px;
+  font-size: 20px;
+}
+
+.profileScreen_info {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.profileScreen_info > h1 {
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+  padding-left: 20%;
+}
+
+
+.profileScreen_details {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+
+.profileScreen_details > h2 {
+  background-color: gray;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.profileScreen_signOut {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.profileScreen_info > img {
+  height: 100px;
+}
