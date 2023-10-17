@@ -48,6 +48,6 @@
 
 .banner_buttons:hover {
     color: #000;
-    background-color: #e6e6e6;
+    background-color: transparent;
     transition: all 0.2s;
 }

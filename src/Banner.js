@@ -3,8 +3,11 @@ import "./Banner.css";
 import banner from "../src/assets/banner.png";
 import axios from "./axios";
 import requests from "./Requests";
+import { useNavigate } from "react-router-dom";
 
 function Banner() {
+  const navigate = useNavigate() 
+
   const [movie, setMovie] = useState([]);
 
   useEffect(() => {
@@ -38,7 +41,7 @@ function Banner() {
             {movie?.title || movie?.name || movie?.original_name}
         </h1>
         <div className="banner_buttons">
-          <button className="banner_buttons">Play</button>
+          <button className="banner_buttons" onClick={() => navigate("/player")}>Play</button>
           <button className="banner_buttons">My List</button>
         </div>
         <h1 className="banner_description">
